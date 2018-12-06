@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2001782d-35cb-4b46-9060-7ca9311cf2a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/av04/Day4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/av04/Day4Part2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/av04/Day4Part2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/av04/Day4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/av05/Day5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/av05/Day5Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,7 +24,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8804" />
+          <entry key="java" value="10468" />
           <entry key="md" value="1" />
           <entry key="txt" value="6" />
           <entry key="xml" value="1" />
@@ -35,7 +32,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8804" />
+          <entry key="JAVA" value="10468" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="1" />
         </counts>
@@ -43,17 +40,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="18" />
+          <entry key="java" value="23" />
           <entry key="md" value="1" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="7" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="18" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="23" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -62,43 +59,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/av01/Day01Part2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="36" column="76" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/av03/inputPart1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/av01/Day01Part2Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/av03/Day3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="98" column="100" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="100" />
+            <state relative-caret-position="363">
+              <caret line="99" column="88" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/av04/Day4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="-576">
+              <caret line="51" column="120" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
@@ -120,11 +84,81 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/av05/Day5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Direction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-789">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
+                <element signature="e#1650#1651#0" expanded="true" />
+                <element signature="e#1692#1693#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/av01/Day01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/av05/Day5Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/Assert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="830" column="27" selection-start-line="830" selection-start-column="27" selection-end-line="830" selection-end-column="27" />
+              <folding>
+                <element signature="e#30975#30976#0" expanded="true" />
+                <element signature="e#31022#31023#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/av04/Day4Part2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="87" column="81" selection-start-line="87" selection-start-column="81" selection-end-line="87" selection-end-column="81" />
+            <state relative-caret-position="347">
+              <caret line="151" column="93" selection-start-line="151" selection-start-column="93" selection-end-line="151" selection-end-column="93" />
               <folding>
                 <element signature="e#894#895#0" expanded="true" />
                 <element signature="e#940#941#0" expanded="true" />
@@ -136,8 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/av04/Day4Part2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+            <state relative-caret-position="331">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -145,30 +179,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/av04/inputPart01.txt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/av04/Day4Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/av03/Day3Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -210,9 +220,12 @@
         <option value="$PROJECT_DIR$/src/test/java/av03/Day3Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/av03/Day3.java" />
         <option value="$PROJECT_DIR$/src/test/java/av04/Day4Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/av04/Day4.java" />
         <option value="$PROJECT_DIR$/src/test/java/av04/Day4Part2Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/av04/Day4Part2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/av04/Day4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/av05/input.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/av05/Day5Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/av05/Day5.java" />
       </list>
     </option>
   </component>
@@ -293,6 +306,22 @@
               <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="av05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,7 +372,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544111678256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544127443281" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
@@ -354,6 +383,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="av05" />
       <recent name="av04" />
       <recent name="av03" />
       <recent name="av01" />
@@ -381,39 +411,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Day4Part2">
-    <configuration name="Day3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="av03.Day3" />
-      <module name="adventofcode2018" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="av03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="av04.Day4" />
-      <module name="adventofcode2018" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="av04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day5">
     <configuration name="Day4Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="av04.Day4Part2" />
       <module name="adventofcode2018" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="av04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="av05.Day5" />
+      <module name="adventofcode2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="av05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,17 +454,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day4Test.testPart01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day5Test.testPart1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode2018" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="av04.*" />
+          <option name="PATTERN" value="av05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="av04" />
-      <option name="MAIN_CLASS_NAME" value="av04.Day4Test" />
-      <option name="METHOD_NAME" value="testPart01" />
+      <option name="PACKAGE_NAME" value="av05" />
+      <option name="MAIN_CLASS_NAME" value="av05.Day5Test" />
+      <option name="METHOD_NAME" value="testPart1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day5Test.testPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="av05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="av05" />
+      <option name="MAIN_CLASS_NAME" value="av05.Day5Test" />
+      <option name="METHOD_NAME" value="testPart2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -501,19 +534,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Day3" />
-      <item itemvalue="JUnit.Day4Test.testPart01" />
-      <item itemvalue="Application.Day4" />
       <item itemvalue="JUnit.Day4Part2Test.testPart02" />
       <item itemvalue="Application.Day4Part2" />
+      <item itemvalue="JUnit.Day5Test.testPart1" />
+      <item itemvalue="Application.Day5" />
+      <item itemvalue="JUnit.Day5Test.testPart2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day5" />
+        <item itemvalue="JUnit.Day5Test.testPart2" />
+        <item itemvalue="JUnit.Day5Test.testPart1" />
         <item itemvalue="Application.Day4Part2" />
         <item itemvalue="JUnit.Day4Part2Test.testPart02" />
-        <item itemvalue="JUnit.Day4Test.testPart01" />
-        <item itemvalue="Application.Day4" />
-        <item itemvalue="Application.Day3" />
       </list>
     </recent_temporary>
   </component>
@@ -531,35 +564,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 13m 53s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 20h 58m 10s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 14m 22s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 20h 59m 15s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 14m 50s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 20h 59m 32s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 36m 09s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 20h 59m 41s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 37m 28s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 20h 59m 50s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 37m 59s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 21h 13m 56s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 38m 10s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 21h 15m 32s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 38m 22s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 21h 16m 27s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Test_testPart01 - 2018.12.06 at 16h 38m 43s.xml">
-      <configuration name="Day4Test.testPart01" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 21h 16m 48s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day4Part2Test_testPart02 - 2018.12.06 at 16h 39m 24s.xml">
-      <configuration name="Day4Part2Test.testPart02" configurationId="JUnit" />
+    <history-entry file="Day5Test_testPart2 - 2018.12.06 at 21h 17m 07s.xml">
+      <configuration name="Day5Test.testPart2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -636,18 +669,6 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/av04/Day4.java</url>
-          <line>95</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/av04/Day4.java</url>
-          <line>100</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -679,17 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="830" column="27" selection-start-line="830" selection-start-column="27" selection-end-line="830" selection-end-column="27" />
-          <folding>
-            <element signature="e#30975#30976#0" expanded="true" />
-            <element signature="e#31022#31023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/av02/Day02Part2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -710,41 +720,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/av01/Day01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/av02/Day02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="71" selection-start-line="71" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -823,30 +804,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/av03/Day3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="98" column="100" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/av04/inputPart01.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/av04/Day4Part2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="331">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/av04/Day4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="-576">
+          <caret line="51" column="120" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#387#388#0" expanded="true" />
@@ -857,11 +828,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/av04/Day4Part2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="87" column="81" selection-start-line="87" selection-start-column="81" selection-end-line="87" selection-end-column="81" />
+        <state relative-caret-position="347">
+          <caret line="151" column="93" selection-start-line="151" selection-start-column="93" selection-end-line="151" selection-end-column="93" />
           <folding>
             <element signature="e#894#895#0" expanded="true" />
             <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av01/Day01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av03/Day3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="99" column="88" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av05/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50000" selection-start-column="50000" selection-end-column="50000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="830" column="27" selection-start-line="830" selection-start-column="27" selection-end-line="830" selection-end-column="27" />
+          <folding>
+            <element signature="e#30975#30976#0" expanded="true" />
+            <element signature="e#31022#31023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/av05/Day5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av05/Day5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-789">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
           </folding>
         </state>
       </provider>
