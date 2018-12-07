@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2001782d-35cb-4b46-9060-7ca9311cf2a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/av06/Day6Part2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/av06/Day6Part2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/av06/Day6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/av07/Day7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/av07/Day7Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/av07/Day7Part2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/av07/Day7Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/av03/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/av03/Day3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/av06/Day6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/av06/Day6.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +28,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13340" />
+          <entry key="java" value="16792" />
           <entry key="md" value="1" />
           <entry key="txt" value="6" />
           <entry key="xml" value="1" />
@@ -37,7 +36,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13340" />
+          <entry key="JAVA" value="16792" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="1" />
         </counts>
@@ -45,17 +44,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="54" />
           <entry key="md" value="1" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="12" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="31" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="JAVA" value="54" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -63,32 +62,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/av06/Day6.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/av07/Day7Part2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="169" selection-start-line="169" selection-end-line="178" selection-end-column="5" />
+            <state relative-caret-position="292">
+              <caret line="144" column="89" selection-start-line="144" selection-start-column="89" selection-end-line="144" selection-end-column="89" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3245#3246#0" expanded="true" />
+                <element signature="e#3272#3273#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/av06/Day6Part2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/av07/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
-              <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+            <state relative-caret-position="347">
+              <caret line="100" column="6" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/av06/Day6Part2Test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/av07/Day7Part2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="400">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +112,9 @@
       <find>681</find>
       <find>2039</find>
       <find>total=</find>
+      <find>areaMin</find>
+      <find>Q</find>
+      <find>Z</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,8 +146,12 @@
         <option value="$PROJECT_DIR$/src/main/java/av05/Day5.java" />
         <option value="$PROJECT_DIR$/src/test/java/av06/Day6Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/av06/Day6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/av06/Day6Part2.java" />
         <option value="$PROJECT_DIR$/src/test/java/av06/Day6Part2Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/av06/Day6Part2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/av07/Day7Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/av07/Day7.java" />
+        <option value="$PROJECT_DIR$/src/test/java/av07/Day7Part2Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/av07/Day7Part2.java" />
       </list>
     </option>
   </component>
@@ -199,47 +209,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="av01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="av02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="av03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="av04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="av05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="av06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="av07" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
@@ -310,6 +288,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="av06" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aventofcode2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aventofcode2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="av07" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -320,9 +306,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544206099680" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544218797953" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -331,16 +318,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="av07" />
       <recent name="av06" />
       <recent name="av05" />
       <recent name="av04" />
       <recent name="av03" />
-      <recent name="av01" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="av07" />
       <recent name="av06" />
       <recent name="av04" />
     </key>
@@ -360,33 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Day6Part2">
-    <configuration name="Day5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="av05.Day5" />
-      <module name="adventofcode2018" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="av05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="av06.Day6" />
-      <module name="adventofcode2018" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="av06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day7Part2">
     <configuration name="Day6Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="av06.Day6Part2" />
       <module name="adventofcode2018" />
@@ -400,32 +362,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6Part2Test.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="av07.Day7" />
       <module name="adventofcode2018" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="av06.*" />
+          <option name="PATTERN" value="av07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="av06" />
-      <option name="MAIN_CLASS_NAME" value="av06.Day6Part2Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day7Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="av07.Day7Part2" />
+      <module name="adventofcode2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="av07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day7Part2Test.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="av07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="av07" />
+      <option name="MAIN_CLASS_NAME" value="av07.Day7Part2Test" />
       <option name="METHOD_NAME" value="part2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6Test.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day7Test.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode2018" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="av06.*" />
+          <option name="PATTERN" value="av07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="av06" />
-      <option name="MAIN_CLASS_NAME" value="av06.Day6Test" />
+      <option name="PACKAGE_NAME" value="av07" />
+      <option name="MAIN_CLASS_NAME" value="av07.Day7Test" />
       <option name="METHOD_NAME" value="part1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -433,19 +421,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Day5" />
-      <item itemvalue="JUnit.Day6Test.part1" />
-      <item itemvalue="Application.Day6" />
-      <item itemvalue="JUnit.Day6Part2Test.part2" />
       <item itemvalue="Application.Day6Part2" />
+      <item itemvalue="JUnit.Day7Test.part1" />
+      <item itemvalue="Application.Day7" />
+      <item itemvalue="JUnit.Day7Part2Test.part2" />
+      <item itemvalue="Application.Day7Part2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day7Part2" />
+        <item itemvalue="JUnit.Day7Part2Test.part2" />
         <item itemvalue="Application.Day6Part2" />
-        <item itemvalue="JUnit.Day6Part2Test.part2" />
-        <item itemvalue="Application.Day6" />
-        <item itemvalue="JUnit.Day6Test.part1" />
-        <item itemvalue="Application.Day5" />
+        <item itemvalue="Application.Day7" />
+        <item itemvalue="JUnit.Day7Test.part1" />
       </list>
     </recent_temporary>
   </component>
@@ -463,42 +451,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Day6Test_part1 - 2018.12.06 at 22h 40m 48s.xml">
-      <configuration name="Day6Test.part1" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 06m 59s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Test_part1 - 2018.12.06 at 22h 41m 42s.xml">
-      <configuration name="Day6Test.part1" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 10m 13s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Test_part1 - 2018.12.06 at 22h 53m 11s.xml">
-      <configuration name="Day6Test.part1" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 10m 33s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Test_part1 - 2018.12.06 at 22h 53m 35s.xml">
-      <configuration name="Day6Test.part1" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 13m 48s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Part2Test_part2 - 2018.12.07 at 18h 52m 37s.xml">
-      <configuration name="Day6Part2Test.part2" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 14m 34s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Part2Test_part2 - 2018.12.07 at 18h 53m 46s.xml">
-      <configuration name="Day6Part2Test.part2" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 16m 10s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Part2Test_part2 - 2018.12.07 at 18h 54m 35s.xml">
-      <configuration name="Day6Part2Test.part2" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 20m 11s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Part2Test_part2 - 2018.12.07 at 18h 55m 12s.xml">
-      <configuration name="Day6Part2Test.part2" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 23m 12s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Part2Test_part2 - 2018.12.07 at 18h 56m 23s.xml">
-      <configuration name="Day6Part2Test.part2" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 23m 55s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Day6Part2Test_part2 - 2018.12.07 at 19h 03m 32s.xml">
-      <configuration name="Day6Part2Test.part2" configurationId="JUnit" />
+    <history-entry file="Day7Part2Test_part2 - 2018.12.07 at 22h 24m 16s.xml">
+      <configuration name="Day7Part2Test.part2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -507,8 +495,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29175705" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40455532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47505423" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36767897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -586,8 +574,40 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/av07/Day7.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/av07/Day7Part2.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/av07/Day7Part2.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>node.nodeCompleted == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>node.nodeCompleted</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/av02/input.txt">
@@ -686,6 +706,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,20 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/av04/Day4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="51" column="120" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/av04/Day4Part2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="151" column="93" selection-start-line="151" selection-start-column="93" selection-end-line="151" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -733,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/av05/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50000" selection-start-column="50000" selection-end-column="50000" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -751,13 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-704">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -775,27 +770,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="274" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/av05/Day5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -809,23 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/av06/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/av06/Day6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="169" selection-start-line="169" selection-end-line="178" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/av06/Day6Part2Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -833,10 +793,151 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av05/Day5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av05/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50000" selection-start-column="50000" selection-end-column="50000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av06/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/av06/Day6Part2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+        <state relative-caret-position="426">
+          <caret line="130" column="99" selection-start-line="130" selection-start-column="99" selection-end-line="130" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av04/Day4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="51" column="120" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av04/Day4Part2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="113" column="13" lean-forward="true" selection-start-line="108" selection-start-column="12" selection-end-line="113" selection-end-column="13" />
+          <folding>
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../SDKs/jdk1.8.0_181/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/av07/Day7Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av06/Day6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="48" column="71" lean-forward="true" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av07/Day7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-406">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../SDKs/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="497" column="9" selection-start-line="497" selection-start-column="9" selection-end-line="497" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av07/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/av07/Day7Part2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/av07/Day7Part2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="144" column="89" selection-start-line="144" selection-start-column="89" selection-end-line="144" selection-end-column="89" />
+          <folding>
+            <element signature="e#3245#3246#0" expanded="true" />
+            <element signature="e#3272#3273#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
