@@ -96,7 +96,7 @@ public class Day3 {
 
 
     public static void main(String[] args) {
-        //System.out.println(part1(FileIO.getFileAsList("src/main/java/av03/inputPart1.txt"),1000));
+        //System.out.println(part2(FileIO.getFileAsList("src/main/java/av03/inputPart1.txt"),1000));
         System.out.println(part2(FileIO.getFileAsList("src/main/java/av03/inputPart2.txt"), 1000));
     }
 }
