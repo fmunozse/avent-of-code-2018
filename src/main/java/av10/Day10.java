@@ -1,0 +1,133 @@
+package av10;
+
+import util.FileIO;
+
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+
+public class Day10 {
+
+
+    public void part1(List<String> input, int seconds) {
+
+        List<Point> inputPoints = input.stream().map(this::parsePoint).collect(Collectors.toList());
+
+
+        Set<Integer> yDispersion = new LinkedHashSet<>();
+
+        for (int i = 0; i < seconds; i++) {
+            int yDispersionSecond = inputPoints.stream().map(point -> Integer.valueOf(point.y)).collect(Collectors.toSet()).size();
+            yDispersion = inputPoints.stream().map(point -> Integer.valueOf(point.y)).collect(Collectors.toSet());
+
+            if (yDispersionSecond >= 20) {
+                //Move points
+                inputPoints.stream().forEach(Point::move);
+                continue;
+            }
+
+
+            System.out.println("yDispersion  = " + yDispersion );
+
+            int maxX = inputPoints.stream().filter(Objects::nonNull).mapToInt(value -> value.x).max().getAsInt() + 1;
+            int minX = inputPoints.stream().filter(Objects::nonNull).mapToInt(value -> value.x).min().getAsInt();
+            int maxY = inputPoints.stream().filter(Objects::nonNull).mapToInt(value -> value.y).max().getAsInt() + 1;
+            int minY = inputPoints.stream().filter(Objects::nonNull).mapToInt(value -> value.y).min().getAsInt();
+            System.out.println("maxX = " + maxX + ". maxY = " + maxY + ", minX = " + minX + ". minY = " + minY);
+
+
+
+
+            printPoints(inputPoints, maxX, minX, maxY, minY, i);
+
+            //Move points
+            inputPoints.stream().forEach(Point::move);
+        }
+
+
+
+    }
+
+    private void printPoints(List<Point> inputPoints, int maxX, int minX, int maxY, int minY, int second) {
+
+        System.out.println("Calculating maps - second " + second);
+        Map<String, Point> mapsPoint = new LinkedHashMap<>();
+        mapsPoint = inputPoints.stream().collect(Collectors.toMap(Point::key, point -> point, (o, o2) -> o ));
+        //System.out.println("Calculated " + mapsPoint);
+
+        StringBuilder sb = new StringBuilder();
+        for (int y = minY; y < maxY ; y++) {
+            for (int x = minX; x < maxX ; x++) {
+                boolean isPointHere = mapsPoint.containsKey(x + "_" + y);
+                sb.append(String.format("%s", isPointHere ? "#" : "."));
+            }
+            sb.append("\n");
+        }
+        System.out.println(sb);
+
+
+
+    }
+
+
+
+    private Point parsePoint(String line) {
+
+        Matcher matcherLine = Pattern.compile("^position=<(.*),(.*)> velocity=<(.*),(.*)>$").matcher(line);
+        if (matcherLine.find()) {
+            String x = matcherLine.group(1).trim();
+            String y = matcherLine.group(2).trim();
+            String vX = matcherLine.group(3).trim();
+            String vY = matcherLine.group(4).trim();
+            Point point = new Point(
+                    Integer.parseInt(x),
+                    Integer.parseInt(y),
+                    Integer.parseInt(vX),
+                    Integer.parseInt(vY));
+
+            return point;
+        }
+        return null;
+    }
+
+
+    class Point {
+        int x, y;
+        int vX, vY;
+
+        public Point(int x, int y, int vX, int vY) {
+            this.x = x;
+            this.y = y;
+            this.vX = vX;
+            this.vY = vY;
+        }
+
+        public String key () {
+            return this.x + "_" + this.y;
+        }
+
+        public void move() {
+            this.x += this.vX;
+            this.y += this.vY;
+        }
+
+        @Override
+        public String toString() {
+            return "Point{" +
+                    "x=" + x +
+                    ", y=" + y +
+                    ", vX=" + vX +
+                    ", vY=" + vY +
+                    '}';
+        }
+    }
+
+    public static void main(String[] args) {
+        Day10 d = new Day10();
+        //d.part1(FileIO.getFileAsList("src/main/java/av10/test.txt"), 5);
+        d.part1(FileIO.getFileAsList("src/main/java/av10/input.txt"), 200000);
+
+    }
+
+}
